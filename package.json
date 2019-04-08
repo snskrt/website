@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "snskrt-xyz",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Website about the Sanskrit",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -10,21 +10,33 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby build && gh-pages -d public -b master --repo https://github.com/snskrt/snskrt.github.io"
   },
   "dependencies": {
     "gatsby": "^2.3.3",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-typography": "^2.2.10",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.8",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-de-young": "^0.16.19"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.16.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/snskrt/website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/snskrt/website/issues"
   }
 }

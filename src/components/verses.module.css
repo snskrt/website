@@ -1,0 +1,11 @@
+.verse_link {
+    margin-bottom: 20px;
+}
+
+.verse blockquote {
+    background-color: #fdfaf6;
+    padding: 20px;
+    border: none;
+    font-style: normal;
+    margin: 10px 0px;
+}

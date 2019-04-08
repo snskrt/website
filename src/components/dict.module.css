@@ -1,0 +1,38 @@
+.download a {
+    margin-right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 5px solid #fff;
+    white-space: nowrap;
+}
+
+.download a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 5px solid #000;
+}
+
+.warn {
+    background-color: #fdfaf6;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.preview {
+    width: 50px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.preview:hover {
+    outline: 2px solid #000;
+}
+
+.screenshot {
+    width: 30rem;
+    border: 1px solid #000;
+}

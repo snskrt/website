@@ -1,0 +1,25 @@
+.container {
+    max-width: 42rem;
+    margin: 0px auto;
+    padding: 0.5rem 1.125rem;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: #aaa;
+}
+
+.menu {
+    color: #aaa;
+}
+
+.container footer {
+    bottom: 0;
+    height: 2.5rem;
+    color: #aaa;
+}
+
+.container footer a {
+    margin-right: 20px;
+    color: #aaa;
+}
